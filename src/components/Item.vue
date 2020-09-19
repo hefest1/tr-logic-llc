@@ -1,6 +1,6 @@
 <template>
     <li class="contacts__item">
-        <router-link v-bind:to="'/details?id=' + id" class="contacts__item-link">
+        <router-link v-bind:to="'details?id=' + id" class="contacts__item-link">
             <span class="contacts__item-title">
                 {{data.title}}
             </span>
