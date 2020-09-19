@@ -35,6 +35,7 @@ import ConfirmModal from '@/components/ConfirmModal';
 import Item from '@/components/Item';
 import {mapActions} from 'vuex';
 export default {
+    name: 'Contacts',
     props: ['list'],
     computed: {
         contacts() {
