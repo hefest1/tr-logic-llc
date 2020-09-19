@@ -8,11 +8,11 @@ export default new Router({
     mode: 'history',
     routes: [
         {
-            path: '/',
+            path: 'tr-logic-llc/',
             component: Contacts, 
         },
         {
-            path: '/details',
+            path: 'tr-logic-llc/details',
             component: () => import('./components/Details.vue')
         }
     ]
